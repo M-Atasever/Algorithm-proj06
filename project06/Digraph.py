@@ -164,6 +164,7 @@ class Digraph:
             else:
                 #if nextnodes is empty, the first element in the visit is cur(node)
                 cur = visit.pop()
+                
             #use the cur(node) we get to find the curdist from dist(it is is a distance)
             curdist = dist[cur]
             
